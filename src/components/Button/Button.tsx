@@ -1,6 +1,8 @@
 import React from "react";
-import { ButtonProps } from "./Button.types";
 import "./Button.css";
+export interface ButtonProps {
+  label: string;
+}
 
 const Button = (props: ButtonProps) => {
   return <button>{props.label}</button>;
