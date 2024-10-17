@@ -55,5 +55,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/types.d.ts"
+  "types": "dist/index.d.ts"
 }
